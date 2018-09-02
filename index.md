@@ -1,5 +1,5 @@
 ---
-title: "index.Rmd"
+title: "Practical Machine Learning Assignment"
 author: "S Zaki"
 date: "9/1/2018"
 output:
@@ -59,7 +59,7 @@ dim(test_dat)
 
 ## Step 2: Exploring and Cleaning the datasets
 
-###Plotting predictors
+### Plotting predictors
 To get an idea about the data, we made pairwise feature plots with some variables. We see that most of the points for different classes overlapped for the variables however the points for class E sometimes do not. 
 To investigate further we made density plots for these variables. The density plots showed that class A and B have similar density curves but class E has very different distribution compared to the other classes and also that some variables like "amplitude_roll_belt" have a lot of missing values. 
 
